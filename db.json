@@ -1,0 +1,639 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Nguyen Thi A",
+      "email": "nguyenthia@gmail.com",
+      "password": "nguyenthia",
+      "token": "bkP9VQydMBRmW67obqD7"
+    },
+    {
+      "id": 2,
+      "fullName": "Do Thi B",
+      "email": "dothib@gmail.com",
+      "password": "dothib",
+      "token": "KsZitkpwbbPF3fdjbQWh"
+    },
+    {
+      "id": 3,
+      "fullName": "Ngo Van C",
+      "email": "ngovanc@gmail.com",
+      "password": "ngovanc",
+      "token": "abVy7NJdwVNgqGcCD9Lo"
+    },
+    {
+      "id": 4,
+      "fullName": "Le Van D",
+      "email": "levand@gmail.com",
+      "password": "levand",
+      "token": "tq7nF9XpG3wUnr1U76P5"
+    },
+    {
+      "id": "8b18",
+      "email": "bin@khah",
+      "password": "khanh",
+      "fullName": "áef",
+      "token": "cxaUP34ViIAxjc6bCRdp"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "kiểm tra về html"
+    },
+    {
+      "id": 2,
+      "name": "kiem tra ve CSS3"
+    },
+    {
+      "id": 3,
+      "name": "kiem tra ve Javascript"
+    },
+    {
+      "id": 4,
+      "name": "kiem tra ve ReactJS"
+    }
+  ],
+  "questions": [
+    {
+      "id": 2,
+      "topicId": 1,
+      "question": "HTML là viết tắt của...?",
+      "answers": [
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Text Markup Language"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 3,
+      "topicId": 1,
+      "question": "Ai là người đưa ra các tiêu chuẩn web?",
+      "answers": [
+        "Tổ chức World Wide Web Consortium (W3C)",
+        "Apple",
+        "Google",
+        "Microsoft"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 1,
+      "topicId": 1,
+      "question": "HTML là ngôn ngữ đánh dấu cho việc tạo ra nội dung và cấu trúc của trang web?",
+      "answers": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "topicId": 1,
+      "question": "Đâu không phải là phần tử block-level trong HTML?",
+      "answers": [
+        "<div>",
+        "<span>",
+        "<p>",
+        "<h1>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 1,
+      "topicId": 2,
+      "question": "khanh là ai",
+      "answers": [
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Text Markup Language"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "topicId": 2,
+      "question": "Ai là người đưa ra các tiêu chuẩn web?",
+      "answers": [
+        "Tổ chức World Wide Web Consortium (W3C)",
+        "Apple",
+        "Google",
+        "Microsoft"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "topicId": 2,
+      "question": "HTML là ngôn ngữ đánh dấu cho việc tạo ra nội dung và cấu trúc của trang web?",
+      "answers": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "topicId": 2,
+      "question": "Đâu không phải là phần tử block-level trong HTML?",
+      "answers": [
+        "<div>",
+        "<span>",
+        "<p>",
+        "<h1>"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "answers": [
+    {
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 2,
+          "answer": 2
+        },
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 3
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 2,
+          "answer": 2
+        },
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 3
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 2,
+          "answer": 2
+        },
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 3
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "topicId": 4,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 2,
+          "answer": 2
+        },
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 3
+        }
+      ],
+      "id": 4
+    },
+    {
+      "id": "4610",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 2
+        },
+        {
+          "questionId": 3,
+          "answer": 3
+        },
+        {
+          "questionId": 4,
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "id": "d60b",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 3
+        },
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "8c59",
+      "userId": 1,
+      "topicId": 1,
+      "answers": []
+    },
+    {
+      "id": "efad",
+      "userId": 1,
+      "topicId": 1,
+      "answers": []
+    },
+    {
+      "id": "9901",
+      "userId": 1,
+      "topicId": 1,
+      "answers": []
+    },
+    {
+      "id": "0b62",
+      "userId": 1,
+      "topicId": 1,
+      "answers": []
+    },
+    {
+      "id": "ec45",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 0
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "4ea6",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "3c5f",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "cfbb",
+      "userId": 1,
+      "topicId": 1,
+      "answers": []
+    },
+    {
+      "id": "b1f8",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "id": "e00e",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "5669",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 2
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "id": "c114",
+      "userId": 1,
+      "topicId": 1,
+      "answers": []
+    },
+    {
+      "id": "9c74",
+      "userId": 1,
+      "topicId": 1,
+      "answers": []
+    },
+    {
+      "id": "18ca",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "8bfa",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 2
+        },
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "617a",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 2
+        },
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "17f0",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 2
+        },
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "699f",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "aeb3",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "74a4",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "d772",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "a45b",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "a814",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}
